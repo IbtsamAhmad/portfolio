@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  selll,
+  aventoo
 } from "../assets";
 
 export const navLinks = [
@@ -260,6 +262,48 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://test.fbresearch.org/",
+  },
+  {
+    name: "Avento Solutions Website",
+    description:
+      "A comprehensive platform for offering the latest software and IT services to our customers!",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GSAP",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aventoo,
+    source_code_link: "https://bejewelled-peony-d98322.netlify.app/",
+  },
+  {
+    name: "Sell Phone App ",
+    description:
+      "SellPhone is an online mobile phone portal where you can discover latest and updated mobile prices in Pakistan.",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GSAP",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: selll,
+    source_code_link: "https://heartfelt-pithivier-52dabe.netlify.app/home",
   },
 ];
 
